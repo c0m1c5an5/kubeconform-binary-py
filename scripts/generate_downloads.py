@@ -128,6 +128,8 @@ def main(argv: Sequence[str] | None = sys.argv[1:]) -> int:
         [kubeconform.exe]
         group = kubeconform-binary
         marker = sys_platform == "win32" and platform_machine == "ARM"
+        marker = sys_platform == "cygwin" and platform_machine == "armv6hf"
+        marker = sys_platform == "cygwin" and platform_machine == "armv7l"
         url = {data["windows-armv6"]["url"]}
         sha256 = {data["windows-armv6"]["sha256"]}
         extract = zip
@@ -135,6 +137,7 @@ def main(argv: Sequence[str] | None = sys.argv[1:]) -> int:
         [kubeconform.exe]
         group = kubeconform-binary
         marker = sys_platform == "win32" and platform_machine == "ARM64"
+        marker = sys_platform == "cygwin" and platform_machine == "aarch64"
         url = {data["windows-arm64"]["url"]}
         sha256 = {data["windows-arm64"]["sha256"]}
         extract = zip
