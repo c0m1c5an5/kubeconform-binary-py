@@ -1,4 +1,4 @@
-# kubeconform-py
+# kubeconform-binary-py
 
 A python wrapper to provide a pip-installable [kubeconform](https://github.com/yannh/kubeconform) binary.
 
