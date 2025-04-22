@@ -1,0 +1,10 @@
+kubeconform-darwin-amd64.tar.gz
+kubeconform-darwin-arm64.tar.gz
+kubeconform-linux-386.tar.gz
+kubeconform-linux-amd64.tar.gz
+kubeconform-linux-arm64.tar.gz
+kubeconform-linux-armv6.tar.gz
+kubeconform-windows-amd64.zip
+kubeconform-windows-arm64.zip
+kubeconform-windows-armv6.zip
+kubeconform-windows-386.zip
