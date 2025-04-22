@@ -8,7 +8,7 @@ kubeconform binary for your particular platform.
 ### installation
 
 ```bash
-pip install kubeconform-py
+pip install kubeconform-binary
 ```
 
 ### usage
