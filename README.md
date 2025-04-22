@@ -1,6 +1,6 @@
 # kubeconform-py
 
-A python wrapper to provide a pip-installable [kubeconform](https://github.com/kubeconform/kubeconform) binary.
+A python wrapper to provide a pip-installable [kubeconform](https://github.com/yannh/kubeconform) binary.
 
 Internally this package provides a convenient way to download the pre-built
 kubeconform binary for your particular platform.
